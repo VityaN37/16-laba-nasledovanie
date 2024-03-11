@@ -15,7 +15,7 @@ int main()
     bool f = true;
   
     CFile a;
-
+    int b=0;
 
     while (f)
     {
