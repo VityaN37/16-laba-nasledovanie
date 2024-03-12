@@ -56,12 +56,12 @@ void CFile::Readfile()
         std::cout << "File " << filename << " открыт успешно" << std::endl;
         std::string str;
 
-       /* while (!file.eof())
+        while (!file.eof())
         {
             str = " ";
-            std::getline(file, str);
+            std::getline(file, str);          ///////?????????
             std::cout << str << std::endl;
-        }*/
+        }
     }
 
     file.close();
@@ -123,7 +123,7 @@ int CFile::GetPosition() /// i
          {
           
              std::cout << ch;
-             if (ch != " ")
+             if (ch != " ")  ///????????
              {
                  summ++;
              }
